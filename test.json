@@ -1,0 +1,148 @@
+[{
+    "id": 38786,
+    "access_restricted_by_date": true
+}, {
+    "id": 38658,
+    "name": "Art Hist: Renaissance to Moder - 2022FA: 63600 \u0026 63601",
+    "account_id": 1,
+    "uuid": "yBF5SIvz3poLtqblTS0U0ThoXWdIti4E6RHsjuc5",
+    "start_at": "2022-08-22T07:01:00Z",
+    "grading_standard_id": null,
+    "is_public": false,
+    "created_at": "2022-04-27T17:16:19Z",
+    "course_code": "ART-111-63600/63601",
+    "default_view": "wiki",
+    "root_account_id": 1,
+    "enrollment_term_id": 228,
+    "license": "private",
+    "grade_passback_setting": null,
+    "end_at": "2022-12-11T07:59:00Z",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "storage_quota_mb": 3000,
+    "is_public_to_auth_users": false,
+    "homeroom_course": false,
+    "course_color": null,
+    "friendly_name": null,
+    "apply_assignment_group_weights": false,
+    "locale": "en",
+    "calendar": {
+        "ics": "https://coc.instructure.com/feeds/calendars/course_yBF5SIvz3poLtqblTS0U0ThoXWdIti4E6RHsjuc5.ics"
+    },
+    "time_zone": "America/Los_Angeles",
+    "blueprint": false,
+    "template": false,
+    "enrollments": [{
+        "type": "student",
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "user_id": 94919,
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false
+    }],
+    "hide_final_grades": false,
+    "workflow_state": "available",
+    "course_format": "online",
+    "restrict_enrollments_to_course_dates": true
+}, {
+    "id": 2803,
+    "name": "COC Honors",
+    "account_id": 36,
+    "uuid": "2v4cjGAsicPZNWRYKvNH6xk6ZVgeujtKp84Ljxfe",
+    "start_at": "2016-09-27T02:54:00Z",
+    "grading_standard_id": null,
+    "is_public": false,
+    "created_at": "2016-09-19T21:26:37Z",
+    "course_code": "COC Honors",
+    "default_view": "wiki",
+    "root_account_id": 1,
+    "enrollment_term_id": 1,
+    "license": "private",
+    "grade_passback_setting": null,
+    "end_at": null,
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "storage_quota_mb": 3000,
+    "is_public_to_auth_users": false,
+    "homeroom_course": false,
+    "course_color": null,
+    "friendly_name": null,
+    "apply_assignment_group_weights": false,
+    "calendar": {
+        "ics": "https://coc.instructure.com/feeds/calendars/course_2v4cjGAsicPZNWRYKvNH6xk6ZVgeujtKp84Ljxfe.ics"
+    },
+    "time_zone": "America/Los_Angeles",
+    "blueprint": false,
+    "template": false,
+    "enrollments": [{
+        "type": "student",
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "user_id": 94919,
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false
+    }],
+    "hide_final_grades": false,
+    "workflow_state": "available",
+    "restrict_enrollments_to_course_dates": false,
+    "overridden_course_visibility": ""
+}, {
+    "id": 43635,
+    "access_restricted_by_date": true
+}, {
+    "id": 39088,
+    "access_restricted_by_date": true
+}, {
+    "id": 43410,
+    "access_restricted_by_date": true
+}, {
+    "id": 37978,
+    "access_restricted_by_date": true
+}, {
+    "id": 28673,
+    "access_restricted_by_date": true
+}, {
+    "id": 40423,
+    "name": "Macroeconomics - 2022SU:67928",
+    "account_id": 1,
+    "uuid": "swTRgHrQJqoUZX0zcM2ZYPkLtVG1MUkSzBVjx46G",
+    "start_at": "2022-06-06T16:33:24Z",
+    "grading_standard_id": null,
+    "is_public": false,
+    "created_at": "2022-05-24T01:16:26Z",
+    "course_code": "ECON-201-67928",
+    "default_view": "modules",
+    "root_account_id": 1,
+    "enrollment_term_id": 227,
+    "license": "private",
+    "grade_passback_setting": null,
+    "end_at": null,
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "storage_quota_mb": 3000,
+    "is_public_to_auth_users": false,
+    "homeroom_course": false,
+    "course_color": null,
+    "friendly_name": null,
+    "apply_assignment_group_weights": true,
+    "calendar": {
+        "ics": "https://coc.instructure.com/feeds/calendars/course_swTRgHrQJqoUZX0zcM2ZYPkLtVG1MUkSzBVjx46G.ics"
+    },
+    "time_zone": "America/Los_Angeles",
+    "blueprint": false,
+    "template": false,
+    "enrollments": [{
+        "type": "student",
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "user_id": 94919,
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false
+    }],
+    "hide_final_grades": false,
+    "workflow_state": "available",
+    "restrict_enrollments_to_course_dates": false
+}, {
+    "id": 43468,
+    "access_restricted_by_date": true
+}]
