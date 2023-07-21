@@ -1,4 +1,5 @@
 # https://canvasapi.readthedocs.io/en/stable/
+# https://canvasapi.readthedocs.io/en/stable/examples.html?highlight=courses#list-courses-under-an-account
 
 # Import the Canvas class
 from canvasapi import Canvas
@@ -11,21 +12,32 @@ API_KEY = os.environ['KEY']
 
 # Initialize a new Canvas object
 canvas = Canvas(API_URL, API_KEY)
+user = canvas.get_user("self")
 
-# Get the course object
-course = canvas.get_course(2803)
+# active, future, completed
+#courses = user.get_courses(enrollment_state='active')
 
-# Get the student object
-student = course.get_user(94919)
+#for course in courses:
+#  try:
+#    users = course.get_users()
+#    print(course)
+#  except:
+#    pass
+#
+#for user in users:
+#  print(user.name)
 
-print(student)
+course = canvas.get_course(46281)
 
-# Create a new conversation
-conversation = canvas.create_conversation(
-    recipients=[94919],
-    subject="Group Project",
-    body="Hello! This is a message about our group project."
-)
+try:
+  users = course.get_users()
+  print(course)
+except:
+  pass
 
-# Send the conversation message
-print(conversation)
+with open('nameses.txt', 'w') as file:
+    for user in users:
+      try:
+        file.write(user.name + '\n')
+      except:
+        file.write('failed here')
